@@ -5,7 +5,7 @@
 function test() {
     var elem = document.getElementById('block1');
     var link = document.createElement('a');
-    var br = document.createElement('br')
+    var br = document.createElement('br');
     link.innerHTML = 'Google';
     link.href = 'http://google.ru';
 
