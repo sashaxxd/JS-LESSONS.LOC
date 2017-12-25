@@ -15,3 +15,15 @@ for (var key in menu){
     counter++;
 }
 alert('Кол-во свойств в этом объекте = ' + counter);
+
+//Приоритеты выведет по порядку цифр 1,2,3
+
+var couns = {
+    "1" : "Russan",
+    "3" : "USA",
+    "2" : "Belarus"
+};
+
+for(count in couns){
+    alert(count + couns[count]);
+}
