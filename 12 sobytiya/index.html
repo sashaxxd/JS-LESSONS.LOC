@@ -4,7 +4,26 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body onload="console.log('Страница загружена')">
+
+<div onclick="alert('Кликнули')">Кликни</div>
+<p ondblclick="alert('Два раза кликнули')">Двойнок клик</p>
+<form onsubmit="return confirm('Отправить?')">
+    <input type="text"
+           onfocus="var x = 1; console.log(x);"
+           onblur="var x = 0; console.log(x);">
+   <input type="submit" value="Отправить">
+</form>
+
+<div id="sobytiya" style="background-color: aqua;
+padding: 5px;">
+    onclick = нажатие левой кнопки мыши<br>
+    ondblclick = двойное нажатие л.к. мыши<br>
+    onchange = изменение значения в поле элемента формы<br>
+    onfocus = при фокусировке на элементе формы<br>
+    onblur = противоположность onfocus<br>
+    onload = после загрузки страницы
+</div>
 
 </body>
 <script src="script.js"></script>
