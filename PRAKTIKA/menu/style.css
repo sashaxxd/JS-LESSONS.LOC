@@ -1,0 +1,29 @@
+.menu-item{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: deeppink;
+    color: #FFFFFF;
+    font-family: "Roboto Light";
+    font-size: 13px;
+    border-bottom: #374bff 5px solid;
+    cursor: pointer;
+    text-align: center;
+}
+.menu-item .submenu{
+    margin-top: 20px;
+    margin-right:10px ;
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #374bff;
+    color: #FFFFFF;
+    font-family: "Roboto Light";
+    font-size: 13px;
+    border-bottom: #374bff 5px solid;
+
+    display: none;
+}
